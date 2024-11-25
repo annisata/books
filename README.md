@@ -23,3 +23,10 @@ Kode tersebut mensimulasikan operasi yang membutuhkan waktu tertentu dengan penu
 
 Langkah 2 : 
 Kode tersebut adalah fungsi asinkron dalam bahasa Dart yang menghitung total nilai yang diperoleh dari tiga fungsi returnOneAsync, returnTwoAsync, dan returnThreeAsync. Fungsi ini juga memperbarui tampilan (UI) dengan memanfaatkan setState untuk mengubah nilai variabel result.
+
+Praktikum 3: Menggunakan Completer di Future
+
+W11: Soal 5
+![4](image/4.png)
+
+Kode pada langkah 2 bertujuan untuk membuat Future secara manual menggunakan Completer. Menunda hasil dengan menunggu selama 5 detik. Dan menyelesaikan Future dengan nilai 42 menggunakan completer.complete.
