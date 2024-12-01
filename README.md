@@ -52,3 +52,17 @@ Praktikum 5: Menangani Respon Error pada Async Code
 
 Langkah 1-3
 ![7](image/7.png)
+
+Langkah 4 handleError
+![8](image/8.png)
+
+Soal 10
+Dengan menambahkan fungsi handleError(), kita telah membuat aplikasi menjadi lebih robust dan dapat menangani error dengan baik.
+
+Praktikum 6: Menggunakan Future dengan StatefulWidget
+
+![9](image/9.png)
+
+Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+
+Jawab : Flutter di browser tidak bisa mendapatkan koordinat GPS dengan geolocator karena keterbatasan browser terhadap API native.
