@@ -44,3 +44,11 @@ Praktikum 4: Memanggil Future secara paralel
 
 Langkah 1-3
 ![6](image/6.png)
+
+Soal 8
+Future.wait() sangat berguna untuk meningkatkan kinerja dan efisiensi ketika menjalankan beberapa operasi asinkron secara paralel
+
+Praktikum 5: Menangani Respon Error pada Async Code
+
+Langkah 1-3
+![7](image/7.png)
