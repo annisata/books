@@ -78,4 +78,9 @@ Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
 Jawab : 
 Langkah 1: Modifikasi method getPosition dengan membuka file geolocation
 Langkah 2: Menambahkan variabel di class _LocationScreenState
-Langkah 3: Menambahkan method di build () 
+Langkah 3: Menambahkan method di build ()
+
+![11](image/11.png)
+W11: Soal 14
+Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+jawab : Menambahkan heandling error dan hasilnya akan terlihat seperti digambar
