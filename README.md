@@ -84,3 +84,11 @@ Langkah 3: Menambahkan method di build ()
 W11: Soal 14
 Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
 jawab : Menambahkan heandling error dan hasilnya akan terlihat seperti digambar
+
+Praktikum 8: Navigation route dengan Future Function
+
+![12](image/12.png)
+![13](image/13.png)
+
+Ketika di klik maka akan ganti warna sesuai dengan warna yang kita pilih. dikarenakan pada navigation first merupakan awal saat masuk ke dalam halaman, ketika di klik change color maka akan berpindah ke nvigation second. navigation tersebut terdaapat pada navigation first. lalu pada navigation second disediakan 3 warna, yang sudah dideklarasikan pada class _navigationSecondState yaitu Color color; itu akan mengubah backround warna ketika di klik warna yang diingikan.
+
