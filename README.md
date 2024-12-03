@@ -66,3 +66,16 @@ Praktikum 6: Menggunakan Future dengan StatefulWidget
 Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
 
 Jawab : Flutter di browser tidak bisa mendapatkan koordinat GPS dengan geolocator karena keterbatasan browser terhadap API native.
+
+Praktikum 7: Manajemen Future dengan FutureBuilder
+
+![10](image/10.png)
+
+W11: Soal 13
+Soal 13
+Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+
+Jawab : 
+Langkah 1: Modifikasi method getPosition dengan membuka file geolocation
+Langkah 2: Menambahkan variabel di class _LocationScreenState
+Langkah 3: Menambahkan method di build () 

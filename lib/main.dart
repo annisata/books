@@ -15,13 +15,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Future Demo',
+      title: 'Annisa Tri Amalia',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       // home: const FuturePage(),
-      home: const LocationScreen(),
+      home: LocationScreen(),
     );
   }
 }
