@@ -3,7 +3,8 @@ Nama    : Annnisa Tri Amalia
 NIM     : 362358302084
 Kelas   : 2B TRPL
 
-Praktikum 1: Mengunduh Data dari Web Service (API)
+# Praktikum 1: Mengunduh Data dari Web Service (API)
+
 - Mencari judul buku favorit di google books
 ![1](image/1.png)
 
@@ -13,7 +14,7 @@ Praktikum 1: Mengunduh Data dari Web Service (API)
 
 - catchError biasanya merujuk pada mekanisme penanganan error (kesalahan) dalam bahasa pemrograman.
 
-Praktikum 2: Menggunakan await/async untuk menghindari callbacks
+# Praktikum 2: Menggunakan await/async untuk menghindari callbacks
 
 1. W11: Soal 4
 ![3](image/3.png)
@@ -24,7 +25,7 @@ Kode tersebut mensimulasikan operasi yang membutuhkan waktu tertentu dengan penu
 Langkah 2 : 
 Kode tersebut adalah fungsi asinkron dalam bahasa Dart yang menghitung total nilai yang diperoleh dari tiga fungsi returnOneAsync, returnTwoAsync, dan returnThreeAsync. Fungsi ini juga memperbarui tampilan (UI) dengan memanfaatkan setState untuk mengubah nilai variabel result.
 
-Praktikum 3: Menggunakan Completer di Future
+# Praktikum 3: Menggunakan Completer di Future
 
 W11: Soal 5
 ![4](image/4.png)
@@ -40,7 +41,7 @@ Kode tersebut adalah fungsi asinkron bernama calculate, yang menggunakan blok tr
 Langkah 6 :
 Kode tersebut adalah contoh penggunaan Future, yang memanfaatkan metode then dan catchError untuk menangani hasil sukses atau error dari operasi asinkron.
 
-Praktikum 4: Memanggil Future secara paralel
+# Praktikum 4: Memanggil Future secara paralel
 
 Langkah 1-3
 ![6](image/6.png)
@@ -48,7 +49,7 @@ Langkah 1-3
 Soal 8
 Future.wait() sangat berguna untuk meningkatkan kinerja dan efisiensi ketika menjalankan beberapa operasi asinkron secara paralel
 
-Praktikum 5: Menangani Respon Error pada Async Code
+# Praktikum 5: Menangani Respon Error pada Async Code
 
 Langkah 1-3
 ![7](image/7.png)
@@ -59,7 +60,7 @@ Langkah 4 handleError
 Soal 10
 Dengan menambahkan fungsi handleError(), kita telah membuat aplikasi menjadi lebih robust dan dapat menangani error dengan baik.
 
-Praktikum 6: Menggunakan Future dengan StatefulWidget
+# Praktikum 6: Menggunakan Future dengan StatefulWidget
 
 ![9](image/9.png)
 
@@ -67,7 +68,7 @@ Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
 
 Jawab : Flutter di browser tidak bisa mendapatkan koordinat GPS dengan geolocator karena keterbatasan browser terhadap API native.
 
-Praktikum 7: Manajemen Future dengan FutureBuilder
+# Praktikum 7: Manajemen Future dengan FutureBuilder
 
 ![10](image/10.png)
 
@@ -85,14 +86,14 @@ W11: Soal 14
 Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
 jawab : Menambahkan heandling error dan hasilnya akan terlihat seperti digambar
 
-Praktikum 8: Navigation route dengan Future Function
+# Praktikum 8: Navigation route dengan Future Function
 
 ![12](image/12.png)
 ![13](image/13.png)
 
 Ketika di klik maka akan ganti warna sesuai dengan warna yang kita pilih. dikarenakan pada navigation first merupakan awal saat masuk ke dalam halaman, ketika di klik change color maka akan berpindah ke nvigation second. navigation tersebut terdaapat pada navigation first. lalu pada navigation second disediakan 3 warna, yang sudah dideklarasikan pada class _navigationSecondState yaitu Color color; itu akan mengubah backround warna ketika di klik warna yang diingikan.
 
-Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
+# Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
 
 ![14](image/14.png)
 Ketika menjalankan kode dan mencoba mengklik tombol Red, Green, atau Blue, aplikasi akan mengalami infinite loop hingga akhirnya aplikasi mungkin berhenti atau membeku. Hal ini disebabkan oleh panggilan rekursif tanpa batas dari fungsi _showColorDialog.
